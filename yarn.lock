@@ -620,6 +620,22 @@
   resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-10.0.5.tgz#c1ca664c4ffe2f79d14383323d783368833d503b"
   integrity sha512-Eo+nvW1ZhdkuxBWSsKHGDLNspUaJJQClld9R+H+EtiIuAQtTa8f2rhcQeyUOtvUNQoPyq7Em2PwUqOQD6LOOMA==
 
+"@niftytoolbox/zolygon@^1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@niftytoolbox/zolygon/-/zolygon-1.0.10.tgz#4af9bb8c74747b012c45cc618ffce1e0e21a76b4"
+  integrity sha512-YUrOnI0jZn0GIGpKWJ7j2Z3grncCRnAGasYYgsp/mgCYuy3ziwR+AVCXOUlB1BE287riQTQq9PITI5JZk8XYmA==
+  dependencies:
+    "@zoralabs/core" "^1.0.3"
+    "@zoralabs/media-metadata-schemas" "^0.1.2"
+    axios "^0.21.1"
+    eth-sig-util "^3.0.0"
+    ethereumjs-util "^7.0.7"
+    ethers "^5.0.19"
+    sjcl "^1.0.8"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    ts-node "^9.1.1"
+
 "@opentelemetry/api@0.14.0":
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@opentelemetry/api/-/api-0.14.0.tgz#4e17d8d2f1da72b19374efa7b6526aa001267cae"
@@ -948,6 +964,17 @@
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@zoralabs/media-metadata-schemas/-/media-metadata-schemas-0.1.0.tgz#d6f57443574d90589e414954ed846cf232c0e375"
   integrity sha512-xPQpZiKJxDNlbkkR8CyYRa8rm/1o/n7r3CqbrnJm4EgoURGL5MG3353Nbul3X2o1veBTZ37rZG3mEUS5UPTO4w==
+  dependencies:
+    "@types/jsonschema" "^1.1.1"
+    jsonschema "^1.4.0"
+    ts-node "^9.1.1"
+    tslib "^2.0.3"
+    typescript "^4.1.3"
+
+"@zoralabs/media-metadata-schemas@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@zoralabs/media-metadata-schemas/-/media-metadata-schemas-0.1.2.tgz#b6f3532e7bca95197fa8a7ca136ad70dbdce1d2d"
+  integrity sha512-QcvPNb4RkdU9xKfOxnmKRKKVI4Z5oammiz2wYHmqzOvkIgHvm7tjV/MQcTelaRJfjksYx8k6bqsmbSbKIMUJTQ==
   dependencies:
     "@types/jsonschema" "^1.1.1"
     jsonschema "^1.4.0"

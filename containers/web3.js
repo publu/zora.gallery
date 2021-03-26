@@ -4,7 +4,7 @@ import {
   sha256FromBuffer,
   generateMetadata,
   constructBidShares,
-} from "@zoralabs/zdk"; // Zora provider
+} from "@niftytoolbox/zolygon"; // U nofficial Zora provider
 import axios from "axios"; // axios requests
 import Web3Modal from "web3modal"; // Web3Modal
 import { providers } from "ethers"; // Ethers
