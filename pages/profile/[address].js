@@ -66,13 +66,13 @@ export default function Profile({ address }) {
           {/* Name/Address */}
           <h3>{address.toLowerCase()}</h3>
 
-          {/* Etherscan link */}
+          {/* Matic Vigil link */}
           <a
-            href={`https://etherscan.io/address/${address}`}
+            href={`https://explorer-mumbai.maticvigil.com/address${address}`}
             target="_blank"
             rel="noopener noreferrer"
           >
-            Etherscan
+            Matic Explorer
           </a>
         </div>
       </div>
