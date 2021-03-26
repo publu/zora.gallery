@@ -60,7 +60,8 @@ function useWeb3() {
     setAddress(address);
 
     // Generate Zora provider
-    const zora = new Zora(signer, 1);
+    // or retrieve from provider to make sure we dont mess this up!
+    const zora = new Zora(signer, 80001);
     setZora(zora);
   };
 
